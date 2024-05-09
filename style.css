@@ -160,15 +160,39 @@ a{
   }
 
   
-
+/* media queries */
 
   @media screen and (max-width: 600px) {
+    body{
+      background-image: url(images/image-hero-mobile.jpg);
+      background-repeat: no-repeat;
+    }
+    header img{
+      margin-left: 0%;
+    }
+    .main{
+      height: 100vh;
+      width: 50%;
+      
+    }
     .topnav{
       display: none;
     }
+    /* .topic{
+      width: 75%;
+    } */
+    .topic h3{
+      font-size: 14px;
+    }
+    
     .statics{
       display: block;
     }
+
+    .back-this-project button{
+      font-size: 12px;
+    }
+    
     .part1 button{
       display: none;
     }
@@ -187,7 +211,28 @@ a{
     }
   }
 @media(max-width:375px){
-    header nav ul{
-        display: none;
-    }
+  .main{
+    width: 50%;
+    margin-top: 145%;
+  }
+  .topic p{
+    font-size: 12px;
+  }
+  .last-part h4{
+    font-size: 12px;
+  }
+   .last-part p{
+    font-size: 8px;
+  }
+  .statics span h2{
+    font-size: 14px;
+  }
+  .same{
+    margin: 10px;
+    padding: 5px;
+    width: 90%;
+  }
+}
+.bamboo span{
+  font-size: 12px;
 }
