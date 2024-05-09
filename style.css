@@ -163,9 +163,26 @@ a{
 
 
   @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-      float: right;
+    .topnav{
+      display: none;
+    }
+    .statics{
+      display: block;
+    }
+    .part1 button{
+      display: none;
+    }
+    .bamboo{
+      display: block;
+    }
+    .bamboo .mahogany{
+      font-size: 14px;
+      color: rgb(78, 75, 75);
+    }
+    .reward{
+      display: block;
+    }
+    .reward-last{
       display: block;
     }
   }
