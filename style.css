@@ -140,6 +140,25 @@ a{
     border: none;
   }
 
+  .reward-last{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .reward-last span:first-child{
+    color: rgb(194, 191, 191);
+  }
+
+  .reward-last span button{
+    border-radius: 25px;
+    padding: 10px;
+    outline: none;
+    font-size: px;
+    border: none;
+    background-color: rgb(191, 189, 189);
+
+  }
+
   
 
 
