@@ -225,6 +225,9 @@ a{
   .topic p{
     font-size: 12px;
   }
+  .topic img{
+    display: block;
+  }
   .last-part h4{
     font-size: 12px;
   }
