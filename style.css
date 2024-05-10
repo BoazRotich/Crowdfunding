@@ -225,7 +225,7 @@ a{
   .topic p{
     font-size: 12px;
   }
-  .topic img{
+  .topic img.mobile{
     display: block;
   }
   .last-part h4{
