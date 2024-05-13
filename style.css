@@ -164,7 +164,7 @@ a{
 
   @media screen and (max-width: 600px) {
     body{
-      background-image: url(images/image-hero-mobile.jpg);
+      background-image: url(./images/image-hero-mobile.jpg);
       background-repeat: no-repeat;
     }
     header img{
